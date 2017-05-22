@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A987755D1ED2824C00C1AFB0 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987755C1ED2824C00C1AFB0 /* JournalEntryViewController.swift */; };
+		A987755F1ED2913300C1AFB0 /* NewJournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A987755E1ED2913300C1AFB0 /* NewJournalEntryViewController.swift */; };
 		A9C210351ED016E10060F72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C210341ED016E10060F72E /* AppDelegate.swift */; };
-		A9C210371ED016E10060F72E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C210361ED016E10060F72E /* ViewController.swift */; };
 		A9C2103A1ED016E10060F72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C210381ED016E10060F72E /* Main.storyboard */; };
 		A9C2103C1ED016E10060F72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C2103B1ED016E10060F72E /* Assets.xcassets */; };
 		A9C2103F1ED016E10060F72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C2103D1ED016E10060F72E /* LaunchScreen.storyboard */; };
 		A9C2104A1ED016E10060F72E /* JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C210491ED016E10060F72E /* JournalTests.swift */; };
+		A9C210571ED019E50060F72E /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C210561ED019E50060F72E /* JournalTableViewController.swift */; };
+		A9C210591ED027CE0060F72E /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C210581ED027CE0060F72E /* JournalEntry.swift */; };
+		A9C2105B1ED02FF80060F72E /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C2105A1ED02FF80060F72E /* Journal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A987755C1ED2824C00C1AFB0 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		A987755E1ED2913300C1AFB0 /* NewJournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewJournalEntryViewController.swift; sourceTree = "<group>"; };
 		A9C210311ED016E10060F72E /* Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C210341ED016E10060F72E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9C210361ED016E10060F72E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9C210391ED016E10060F72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9C2103B1ED016E10060F72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C2103E1ED016E10060F72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		A9C210451ED016E10060F72E /* JournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C210491ED016E10060F72E /* JournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTests.swift; sourceTree = "<group>"; };
 		A9C2104B1ED016E10060F72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C210561ED019E50060F72E /* JournalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		A9C210581ED027CE0060F72E /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		A9C2105A1ED02FF80060F72E /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				A9C210341ED016E10060F72E /* AppDelegate.swift */,
-				A9C210361ED016E10060F72E /* ViewController.swift */,
+				A9C210561ED019E50060F72E /* JournalTableViewController.swift */,
+				A9C2105A1ED02FF80060F72E /* Journal.swift */,
+				A9C210581ED027CE0060F72E /* JournalEntry.swift */,
 				A9C210381ED016E10060F72E /* Main.storyboard */,
+				A987755E1ED2913300C1AFB0 /* NewJournalEntryViewController.swift */,
+				A987755C1ED2824C00C1AFB0 /* JournalEntryViewController.swift */,
 				A9C2103B1ED016E10060F72E /* Assets.xcassets */,
 				A9C2103D1ED016E10060F72E /* LaunchScreen.storyboard */,
 				A9C210401ED016E10060F72E /* Info.plist */,
@@ -201,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C210371ED016E10060F72E /* ViewController.swift in Sources */,
+				A9C210591ED027CE0060F72E /* JournalEntry.swift in Sources */,
+				A987755D1ED2824C00C1AFB0 /* JournalEntryViewController.swift in Sources */,
+				A987755F1ED2913300C1AFB0 /* NewJournalEntryViewController.swift in Sources */,
+				A9C210571ED019E50060F72E /* JournalTableViewController.swift in Sources */,
 				A9C210351ED016E10060F72E /* AppDelegate.swift in Sources */,
+				A9C2105B1ED02FF80060F72E /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +430,7 @@
 				A9C210501ED016E10060F72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9C210511ED016E10060F72E /* Build configuration list for PBXNativeTarget "JournalTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				A9C210531ED016E10060F72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
